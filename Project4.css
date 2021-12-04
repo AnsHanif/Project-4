@@ -1,0 +1,36 @@
+
+.main{
+    font-size: 30px;
+}
+.Smain{
+    color: blue;
+}
+.mid{
+    font-size: 30px;
+}
+.flex-container{
+    display: flex;
+    background-color: skyblue;
+    
+}
+.main, .Smain, .mid, .icon{
+    flex: 1 0 auto;
+    padding: 5px;
+}
+#icon2{
+ font-size: 30px;   
+}
+
+
+/* .flex-container{
+        background-color: white;
+    } */
+@media (min-width: 30em) and (max-width: 50em) {
+        /* .flex-container{
+            background-color: purple;
+} */
+.mid,.icon{
+    display: none;
+}
+}
+    
